@@ -17,3 +17,6 @@ To change your file directory and format , just changes parameter in
 ros::Subscriber sub = nh.subscribe("/raspicam_node/image/compressed", 1, imagecompressedCallback);
  
 cv::VideoWriter video_out("out.avi",CV_FOURCC('M','J','P','G'),10, cv::Size(640,480),true);
+
+
+tested with opencv 2.4 and 3.2
