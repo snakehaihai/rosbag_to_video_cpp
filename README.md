@@ -1,5 +1,7 @@
 # rosbag_to_video_cpp
 
+Download the code and put it in catkin_ws src folder. then run catkin_make to compile it
+
 run with 
 
   roscore
